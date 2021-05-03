@@ -24,7 +24,8 @@ float Bitcrush::Process(float in)
     out += 32768;
     out *= (bits / 65536.0f);
     out = floor(out);
-    out *= (65536.0f / bits) - 32768;
+    out *= (65536.0f / bits);
+    out -= 32768;
 
     fold.SetIncrement(foldamt);
     out = fold.Process(out);
