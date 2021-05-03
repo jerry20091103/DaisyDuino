@@ -94,7 +94,7 @@ DaisyHardware AudioClass::init(DaisyDuinoDevice device,
   }
 
   AudioHandle::Config cfg;
-  cfg.blocksize = 48;
+  cfg.blocksize = 3;
   cfg.samplerate = sample_rate;
 
   if (_device == DAISY_PATCH) {
