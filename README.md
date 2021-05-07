@@ -2,6 +2,8 @@
 
 ## Arduino Support for the [Daisy Audio Platform](https://www.electro-smith.com/daisy) 
 
+### This is a Modified verison for my [Guitar Pedal project](https://github.com/jerry20091103/Daisy_Guitar_Pedal)
+
 ### Features
 - DSP library full of synthesis blocks, effects processors, and more
 - Configurable audio callback
